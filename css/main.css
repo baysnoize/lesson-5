@@ -1,0 +1,237 @@
+body 
+{
+	font-family:Tahoma, Arial sans-serif;
+	color: black;
+	padding: 0;
+	margin: 0;
+}
+.container 
+{	
+	width: 940px;
+	margin: 0 auto;
+}
+div, p, form, input, a, span, button
+{
+	box-sizing: border-box;
+}
+
+p{
+	margin: 0;
+	line-height: 1.5em;
+}
+
+ul, li
+{
+	display: block;
+	margin: 0;
+	padding: 0;	
+}
+h1,h2,h3,h4,h5,h6
+{
+	padding: 0;
+	margin: 0;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.d-flex
+{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+.between
+{
+	justify-content: space-between;
+}
+.text-center
+{
+	text-align: center
+}
+.quota
+{
+	font-size: 27px;
+	margin-top:170px;
+}
+.nav_logo
+{
+	margin-top: 70px; 
+}
+.nav_callback
+{
+	margin: 50px 0 0 360px;
+	text-decoration: none;
+    font-size: 13px;
+    color: #fff;
+    border: 1px solid #fff;
+    display: block;
+    width: 218px;
+    height: 52px;
+
+}
+.color-btn
+{
+	background: #2d63eb;
+	border: 1px solid #2d63eb;
+	color: #fff;
+	font-weight: bold;
+}
+.circle
+{
+	padding: 15px 15px;
+    border-radius: 50px;
+}
+
+.nav_arrow
+{
+	margin: 100px 0 50px 0;
+}
+.main
+{
+	box-shadow: 0 -300px 600px #1510106b;
+    background-color: rgb(255, 255, 255);
+    padding-top: 115px;
+}
+
+.main h2
+{
+	font-size: 26px;
+}
+.about
+{
+	margin:85px 0 135px 0;
+}
+.line:after
+{
+	margin-top: 27px; 
+	content: '';
+	display: block;
+	background: #2d63eb;
+	width: 72px;
+	height: 3px;
+	margin-bottom: 40px;
+}
+.about_description
+{
+	width: 50%;
+}
+.about_mission
+{
+	font-size: 15px;
+	font-weight: normal;
+	margin-top: 40px;
+}
+.about_items
+{
+	margin-top: 20px;
+	padding-right: 120px;
+}
+.about_content
+{
+	margin-left: 25px;
+}
+.about_content h4
+{
+	font-size: 16px;
+	font-weight: bold;
+	color: #2d63eb;
+}
+.about_content p
+{
+	font-style: 15px;
+	font-weight: normal;
+	color: #2f383b;
+	opacity: .4;
+}
+.advantages
+{
+	padding: 0 25px 0 25px;
+	margin-bottom: 125px;
+}
+.advantages_item
+{
+	margin-top: 70px;
+}
+.redius
+{
+
+	font-size: 30px;
+    color: #ffa200;
+    border: 1px solid #ffa200;
+    border-radius: 200px;
+    height: 72px;
+    width: 72px;
+    padding: 11px 0 0 0;
+    margin-left: 30%;
+}
+}
+.advantages_first
+{
+		
+}
+.advantages_second
+{
+	color: #fff;
+	background: #ffa200;
+}
+.advantages_third
+{
+	margin-right: 30px;
+}
+.advantages_explanation
+{
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.reflections
+{
+	padding-top: 115px;
+	background: #e6e9f1;
+	padding-bottom: 135px;
+}
+.reflections h2
+{
+	
+	color: #0e1b3e;
+	font-weight: bold; ;
+	font-size: 22px ;
+	margin-bottom: 28px;
+}
+.thoughts
+{
+	width: 420px;
+	font-size: 14px;
+	margin: auto;
+}
+.footer
+{
+	
+	padding-bottom: 50px;
+	background: #06319e;
+}
+.footer p
+{
+	opacity: .55;
+}
+.footer_link
+{
+
+	text-decoration: none;
+    border-bottom: 1px dashed #fff;/
+    opacity: .9;
+    margin-top: 50px;
+    color: #fff;
+    font-weight: normal;
+	font-size: 13px;
+
+}
+.footer_text
+{
+	font-weight: normal;
+	font-size: 13px;
+	margin-top: 50px;
+	color: #fff;
+	opacity: .55;
+}
